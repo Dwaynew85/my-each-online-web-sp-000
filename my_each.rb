@@ -3,4 +3,3 @@ def my_each(array)
   while count < array.lenghth
   end
 end
-
