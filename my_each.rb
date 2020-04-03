@@ -1,4 +1,4 @@
-def my_each(array) 
+def my_each(array)
   count = 0
   collected = []
   while count < i.length
@@ -35,5 +35,5 @@ random = [ 2, 1, 4, 6, 3, 9]
    end
    yield(collected)
  end
- 
+
  each_method(collected){|col| col.sort}
